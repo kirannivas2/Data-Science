@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica;
+    background-color: LightGreen;
+}
+
+h1 {
+    text-shadow: 2px 2px #008800;
+}
+
+ol {
+    list-style-type:lower-alpha;
+}
+
+img {
+    width:300px;
+    border-radius:8px;
+}
+
+#firstPara {
+    color:blueviolet;
+}
+
+.makeBlue {
+    color:blue;
+}
+
+div {
+    background-color:aliceblue;
+}

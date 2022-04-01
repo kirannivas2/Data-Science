@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="demo.css"/>
+        <title>Demo Webpage</title>
+    </head>
+    <body>
+        <h1>This is a level 1 heading</h1>
+        <h2>This is a level 2 heading</h2>
+
+        <div>
+        <p id="firstPara">Hello world.  This is a first paragraph.</p>
+
+        <p class="makeBlue">Paragraphs do not require us to
+            write text all on one line.  In fact
+            they will let us write on multiple
+            lines, putting single spaces in and
+            breaking lines up as needed.  We can use
+            the &lt;br&gt; tag to 
+            <br>
+            break lines up explicitly within a
+            paragraph.
+        </p>
+
+        <p>We often use escape characters for things
+            like less than &amp;lt; or &amp;gt; for 
+            greater than.  The &amp;amp; stands ampersand.
+        </p>
+
+        </div>
+
+        <p>Here is an ordered list.  (There is also
+            an unordered variety.)
+        </p>
+
+        <ol>
+            <li class="makeBlue">First element.</li>
+            <li>Second element.</li>
+            <li class="makeBlue">Third element.</li>
+        </ol>
+
+        <p>We can also include images!</p>
+
+        <img src="frankenstein.jpg" alt="Frankenstein's Monster">
+
+        <script>
+            window.onclick = function() {
+                var new_p = document.createElement("p");
+                var new_text = document.createTextNode("Clicked!");
+                new_p.appendChild(new_text);
+                window.document.body.appendChild(new_p);              
+            }
+        </script>
+    </body>
+</html>
