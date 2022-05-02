@@ -1,0 +1,56 @@
+SCORE: 10/10
+Assignment01: Web Crawler                                              sagaturu
+===============================================================================
+
+Submitted files
+---------------
+.
+├── webcrawler.csv
+├── webcrawler.ipynb
+└── webcrawler_grade.txt
+
+0 directories, 3 files
+
+
+Number of csv files identified: 1
+Number of ipynb files identified: 1
+
+
+
+CSV Evaluation
+--------------
+Attempting to read ./webcrawler.csv [OK]
+Number of entries: 100
+Number of columns: 3
+Column headings:
+   source_url
+   link_url
+   link_title
+
+URL Evaluation
+--------------
+     https://en.wikipedia.org/wiki/Wikipedia:Contact_us:                    10
+     https://en.wikipedia.org/wiki/Data_security:                           10
+     https://en.wikipedia.org/wiki/Ensemble_learning:                       10
+     https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%81%E1%80%BB%E1%80%80%E1%80%BA%E1%80%A1%E1%80%9C%E1%80%80%E1%80%BA%E1%80%9E%E1%80%AD%E1%80%95%E1%80%B9%E1%80%95%E1%80%B6%E1%80%95%E1%80%8A%E1%80%AC:  10
+     https://en.wikipedia.org/wiki/Linear_regression:                       10
+     https://en.wikipedia.org/wiki/Data_science#cite_ref-:1_24-2:           10
+     https://es.wikipedia.org/wiki/Ciencia_de_datos:                        10
+     https://fa.wikipedia.org/wiki/%D8%B9%D9%84%D9%85_%D8%AF%D8%A7%D8%AF%D9%87%E2%80%8C%D9%87%D8%A7:  10
+     https://en.wikipedia.org/wiki/DeepDream:                               10
+     https://en.wikipedia.org/wiki/Scientific_method:                       10
+
+Number of sources with too many targets:  0
+
+Accessible HTML targets 98
+Non HTML targets        0
+Inaccessible targets    2
+
+
+
+
+
+Comments
+--------
+Good job!
+
